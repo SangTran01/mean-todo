@@ -9,6 +9,7 @@
   "author": "sang tran",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "mongoose": "4.5.0"
   }
 }
