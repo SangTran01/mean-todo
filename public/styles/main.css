@@ -5,6 +5,24 @@ body {
   background: #edeff0;
   font-size: 16px; }
 
+nav ul {
+  text-align: left;
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  margin: 0;
+  padding: 10px 15px;
+  color: #444;
+  background-color: #adadad;
+}
+
+
 a {
   color: #3f8abf;
   text-decoration: none; }
