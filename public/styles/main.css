@@ -34,7 +34,10 @@ a {
   width: 80%;
   min-width: 500px;
   margin: 80px auto 0;
-  border-top: 40px solid #5a6772;
+  border-top:40px solid #5a6672;
+  border-left: 4px solid #5a6772;
+  border-right: 4px solid #5a6772;
+  border-bottom: 4px solid #5a6772;
   text-align: left; }
   .list .item {
     border-bottom: 2px solid #edeff0;
@@ -86,4 +89,31 @@ input[type="checkbox"] + span {
 }
 input[type="checkbox"]:checked + span {
     background:url(checkbox-filled.svg) left top no-repeat;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 500px) {
+    a {
+      background-color:red;
+    }
+
+    .list {
+      min-width: 300px;
+      border-top:40px solid #5a6672;
+      border-left: 4px solid #5a6772;
+      border-right: 4px solid #5a6772;
+      border-bottom: 4px solid #5a6772;
+      border-radius: 2px;
+    }
+
+    .list .item .editing-label  {
+      padding:0;
+      width: 300px;
+    }
+
+    .list .item .actions {
+      float:none;
+      font-size:20px;
+    }
 }
